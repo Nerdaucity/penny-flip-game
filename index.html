@@ -1,25 +1,29 @@
 <head>
 <title>Penny Flip Game</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
+<div id="content">
 <div><h1>Penny Flip Game</h1>
 </div>
 
 <div>
-    <img class="penny" src="penny-heads.jpg" alt=""> <!-- Penny render here-->
+    <img id="penny" src="penny-heads.jpg" alt=""> <!-- Penny render here-->
 </div>
 
-<div>
+<div id="button-container">
     <button id="flip-button"><p>Flip The Penny</p></button>
     <button id="clear-button"><p>Clear Scoreboard</p></button>
 </div>
 
-<div id="announcement"></div>
+<div id="announcement">
     <h2><p>Let's Get Rolling!</p></h2>
+    <hr>
 </div>
 
-<div>
+<div id="scoreboard-div">
 <h3>Scoreboard</h3>
 <table id="scoreboard">
     <tr> 
@@ -30,12 +34,14 @@
     </tr>
     <tr>
         <td id="heads-qty">0</td>
-        <td id="heads-ptg">0%</td>
+        <td id="heads-ptg">0 %</td>
         <td id="tails-qty">0</td>
-        <td id="tails-ptg">0%</td>
+        <td id="tails-ptg">0 %</td>
     </tr>
 
 </table>
 </div>
 
+
+</div>
 </body>

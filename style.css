@@ -1,0 +1,60 @@
+#content {margin-left: auto; margin-right: auto;
+    text-align : center;
+    padding-left : 20px;
+    padding-right : 20px;
+    background-color : white;
+}
+
+body{
+    background-color : rgb(112, 112, 11);
+}
+
+#button-container{
+    border : 1px solid black;
+    padding-top: 10px ;
+    padding-bottom: 10px
+}
+
+button {
+    border : 2px solid black;
+    border-radius: 15px;
+}
+
+#flip-button{
+    background-color : yellow;
+}
+
+#flip-button:hover{
+    background-color : darkgoldenrod;
+}
+
+#clear-button{
+    background-color : red;
+}
+
+#clear-button:hover{
+    background-color : darkred;
+}
+
+#announcement{
+    color : green ;
+}
+
+#scoreboard-div{
+    
+    padding-bottom : 25px
+}
+#scoreboard {
+    margin-left : auto;
+    margin-right : auto;
+    border : 1px solid black;
+    margin-bottom : 25px;
+}
+th, td {
+   
+    text-align : center;
+    border : 1px solid black;
+}
+tr{
+    
+}
